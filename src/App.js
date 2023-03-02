@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
 import Match from './Match';
+import Api from './Api';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
        <Counter/>
        <Match/>
+       <Api/>
       </header>
     </div>
   );
